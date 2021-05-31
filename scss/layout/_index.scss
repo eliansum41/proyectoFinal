@@ -1,0 +1,31 @@
+#main-container {
+    background-color: #ffffff;
+    margin: 0 auto;
+
+    min-width: 375px;
+    width: 1285px;
+}
+
+#main-section {
+    width: 900px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#main-section, aside {
+    display: inline-block;
+    vertical-align: top;
+}
+
+aside {
+    box-sizing: border-box;
+    padding: 20px;
+    width: 375px;
+    .imgAside {
+        margin: 0 auto;
+    }
+}
+ 
+article {
+    font-size: 1.1em;
+}

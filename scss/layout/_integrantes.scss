@@ -1,0 +1,55 @@
+@mixin tarjeta {
+    background-color: #c1c1d1;
+    width: 250px;
+    height: 350px;
+    margin: 6rem;
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+}
+
+#mixins {
+    main {
+        color: #111111;
+        // height: 100vh - ($altura-footer + $altura-header);
+        display: flex;
+        justify-content: center;
+        h2{
+            font-size: 40px;
+            position: absolute;
+            margin: 1.6rem;
+        }
+        img {
+            height: auto;
+            width: 100%;
+            object-fit: cover;
+            object-position: 0%;
+        }
+
+        .tarjeta-1 {
+            @include tarjeta;
+        }
+        // // img {
+        // //     height: auto;
+        // //     width: 100%;
+        // //     object-fit: cover;
+        // //     object-position: 0%;
+        // }
+
+        .tarjeta-2 {
+            @include tarjeta;
+
+        }
+
+        .tarjeta-3 {
+            @include tarjeta;
+
+        }
+        
+
+
+
+
+    }
+}
